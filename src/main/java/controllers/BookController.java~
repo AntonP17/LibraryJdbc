@@ -8,7 +8,7 @@ import service.BookService;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/books")
+@RequestMapping("api//books")
 public class BookController {
 
     private final BookService bookService;
