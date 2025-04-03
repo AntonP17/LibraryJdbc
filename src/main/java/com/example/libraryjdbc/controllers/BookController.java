@@ -1,14 +1,14 @@
-package controllers;
+package com.example.libraryjdbc.controllers;
 
-import model.Book;
+import com.example.libraryjdbc.model.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import service.BookService;
+import com.example.libraryjdbc.service.BookService;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("api//books")
+@RequestMapping("api/books")
 public class BookController {
 
     private final BookService bookService;

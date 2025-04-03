@@ -1,6 +1,6 @@
-package repository;
+package com.example.libraryjdbc.repository;
 
-import model.Book;
+import com.example.libraryjdbc.model.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;

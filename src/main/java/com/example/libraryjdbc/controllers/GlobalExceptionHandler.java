@@ -1,4 +1,4 @@
-package controllers;
+package com.example.libraryjdbc.controllers;
 
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
